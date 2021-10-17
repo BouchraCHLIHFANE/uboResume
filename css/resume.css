@@ -1,0 +1,45 @@
+#wrapper { margin-left: 5% ; }
+img {width: 15%; margin: 2%;}
+#conteneur
+{
+display: flex;
+}
+header,footer{
+border-width:2px;
+border: solid;
+background-color: gainsboro;
+}
+#info , footer i{
+margin-left: 5%;
+}
+
+p {
+font-weight: bold;
+}
+div h1 {
+text-align: center ;
+color: rgb(8, 6, 6);
+}
+.body{
+border : solid;
+
+}
+section div {
+color :cadetblue;
+font-size: 20px; 
+}
+tr th{
+text-align: start;
+}
+dl dt{
+font-weight: bold;
+}
+tr td {
+margin-left: 20%;
+}
+section {
+margin-left: 20px;
+}
+footer , #loisir {
+display: flex;
+}
