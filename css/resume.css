@@ -4,6 +4,10 @@ img {width: 15%; margin: 2%;}
 {
 display: flex;
 }
+body {
+    display: flex;
+    justify-content: center;
+}
 header,footer{
 border-width:2px;
 border: solid;
@@ -42,4 +46,10 @@ margin-left: 20px;
 }
 footer , #loisir {
 display: flex;
+}
+
+@media(max-width : 700px) {
+    body {
+        width: fit-content;
+    }
 }
