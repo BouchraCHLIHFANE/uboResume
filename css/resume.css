@@ -1,5 +1,10 @@
 #wrapper { margin-left: 5% ; }
-img {width: 15%; margin: 2%;}
+img {   
+    height: 200px ;
+    width: 200px ;
+    border-radius: 100px ;
+    margin: 2%;
+}
 #conteneur
 {
 display: flex;
