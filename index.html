@@ -13,23 +13,21 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head> 
 <body>
-<div id="wrapper">
-
+<div id="wrapper"  itemscope itemtype="http://schema.org/Etudiant">
     <header>
-        <div id="conteneur">
-            <img src="maPhoto.jfif" /> 
+        <div id="conteneur"  >
+            <img src="maPhoto.jfif" itemprop="image" /> 
             <article id="info">
-                <p>CHLIHFANE Bouchra</p>
-                <p>2, rue des Archives  </p>
-                <p> 29200 BREST</p>
-                <p><span>&#9742;</span>  +33 7 63 73 34 66</p>
-                <p><span class="iconify" data-icon="logos:google-gmail"></span> chlihfane.bouchra@gmail.com</p>
+                <p itemprop="familyName">CHLIHFANE </p> <p itemprop="name">Bouchra</p>
+                <p itemprop="address">2, rue des Archives,29200 BREST </p>
+                <p itemprop="telephone"><span>&#9742;</span>  +33 7 63 73 34 66</p>
+                <p itemprop="email"><span class="iconify" data-icon="logos:google-gmail" ></span> chlihfane.bouchra@gmail.com</p>
                 
             </article>
         </div>
     </header>
     <div class="body">
-        <h1>Ingénieur logiciel et élève en Master 2 <br>
+        <h1 itemprop="jobTitle">Ingénieur logiciel et élève en Master 2 <br>
             Développement logiciel des systèmes
             d’information
         </h1>
@@ -160,13 +158,13 @@
     </div>
     <footer>
         <i class="fa fa-github-square" style="font-size:25px">
-            <a href="https://www.facebook.com/bouchra.ch.5602">facebook</a>
+            <a href="https://www.facebook.com/bouchra.ch.5602" itemprop="url">facebook</a>
         </i> <br> <br>
         <i class="fa fa-facebook-square" style="font-size: 25px;">
-            <a href="https://github.com/BouchraCHLIHFANE">github</a>
+            <a href="https://github.com/BouchraCHLIHFANE" itemprop="url" >github</a>
         </i>
         <i class="fa" style="font-size: 25px;">&#xf08c;
-            <a href="linkedin.com/in/bouchra-chlihfane-453b03167/"> linkedin</a>
+            <a href="linkedin.com/in/bouchra-chlihfane-453b03167/" itemprop="url"> linkedin</a>
         </i>
         
     </footer>
